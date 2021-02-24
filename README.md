@@ -7,8 +7,6 @@ Python 3 and the PyCWT packages from https://github.com/regeirk/pycwt are needed
 
 You can use pip to install this package :
 
-.. code-block:: sh
-
     $ pip install pycwt
 
 Contents in this package:
