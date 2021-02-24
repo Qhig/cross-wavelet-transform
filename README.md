@@ -12,7 +12,7 @@ You can use pip to install this package :
 Contents in this package:
 
 * cwt.py
-    The core function to calculate dt in the time-frequency domain by wavelet cross-spectrum analysis.
+The core function to calculate dt in the time-frequency domain by wavelet cross-spectrum analysis.
 
 * plotting_example.py 
     An example of using the cwt function on synthetic data. Plots come with one click.
