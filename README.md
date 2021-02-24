@@ -9,7 +9,7 @@ You can use pip to install this package :
 
     $ pip install pycwt
 
-Contents in this package:
+## Contents in this package
 
 * **cwt.py** <br/><br/>
   The core function to calculate dt in the time-frequency domain by wavelet cross-spectrum analysis.
