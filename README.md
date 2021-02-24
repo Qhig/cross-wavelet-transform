@@ -19,8 +19,9 @@ Contents in this package:
 
 * ori_waveform.npy <br/>
   new_waveform.npy <br/><br/>
-  Two synthetic waveforms for testing the codes, ori_waveform and new_waveform
-  The synthetic seismograms are generated using velocity models by a homogeneous background superimposed with random heterogeneities. The perturbation between the current and reference velocity models is a 0.05% homogeneous dv/v throughout the medium. (If interested, see Section 3.1 in the following reference for more details.)
+  Two synthetic waveforms for testing the codes, ori_waveform and new_waveform <br/>
+  The synthetic seismograms are generated using velocity models by a homogeneous background superimposed with random heterogeneities.<br/>
+  The perturbation between the current and reference velocity models is a 0.05% homogeneous dv/v throughout the medium. (If interested, see Section 3.1 in the following reference for more details.)
     
 * time.npy<br/>
   fs.npy <br/><br/>
