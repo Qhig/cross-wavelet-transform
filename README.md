@@ -1,6 +1,7 @@
 
 ## CODE for MEASURING SEISMIC TRAVEL-TIME CHANGES with the WAVELET METHOD
 ### This python program is based on the work of Mao and Mordret, that you can find here https://github.com/shujuanmao/dt-wavelet
+### The original code was in MATLAB, and here is the Python equivalent
 #### Contact: Shujuan Mao (maos@mit.edu) and Aurélien Mordret (aurelien.mordret@univ-grenoble-alpes.fr)
 
 This package contains codes and test data for measuring seismic travel-time shifts in the time-frequency domain using the wavelet cross-spectrum analysis. 
@@ -41,6 +42,7 @@ This is the plot we obtain using the **plotting_example.py** program :
   <img src="./img/plotting_example.png" alt="Size Limit CLI" width="738">
 </p>
 
+(If interested, compare the image obtain here with the **Figure 3** in this article Geophysical Journal International, Volume 221, Issue 1, April 2020, Pages 550–568, https://doi.org/10.1093/gji/ggz495)
 
 ## Reference: 
 S.Mao, A.Mordret, M.Campillo, H.Fang, R.D.van der Hilst, (2019), On the Measurement of Seismic Travel-Time Changes in the Time-Frequency Domain with Wavelet Cross-Spectrum Analysis, GJI, In Review.<br/><br/>
