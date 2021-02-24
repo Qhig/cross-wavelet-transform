@@ -2,7 +2,7 @@
 #### Contact: Shujuan Mao (maos@mit.edu) and Aurélien Mordret (aurelien.mordret@univ-grenoble-alpes.fr)
 
 This package contains codes and test data for measuring seismic travel-time shifts in the time-frequency domain using the wavelet cross-spectrum analysis. 
-
+## Requirements
 Python 3 and the PyCWT packages from https://github.com/regeirk/pycwt are needed to run the codes
 
 You can use pip to install this package :
