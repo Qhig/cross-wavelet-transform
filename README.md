@@ -11,20 +11,20 @@ You can use pip to install this package :
 
 Contents in this package:
 
-* cwt.py <br/><br/>
+* **cwt.py** <br/><br/>
   The core function to calculate dt in the time-frequency domain by wavelet cross-spectrum analysis.
 
-* plotting_example.py <br/><br/>
+* **plotting_example.py** <br/><br/>
   An example of using the cwt function on synthetic data. Plots come with one click.
 
-* ori_waveform.npy <br/>
-  new_waveform.npy <br/><br/>
+* **ori_waveform.npy** <br/>
+  **new_waveform.npy** <br/><br/>
   Two synthetic waveforms for testing the codes, ori_waveform and new_waveform <br/>
   The synthetic seismograms are generated using velocity models by a homogeneous background superimposed with random heterogeneities.<br/>
   The perturbation between the current and reference velocity models is a 0.05% homogeneous dv/v throughout the medium. (If interested, see Section 3.1 in the following reference for more details.)
     
-* time.npy<br/>
-  fs.npy <br/><br/>
+* **time.npy**<br/>
+  **fs.npy** <br/><br/>
   The time vector and sampling frequency associated with the synthetic waveforms
   
 
