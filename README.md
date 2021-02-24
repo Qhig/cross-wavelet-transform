@@ -24,8 +24,8 @@ Contents in this package:
     
 * time.npy<br/>
   fs.npy <br/><br/>
-  The time vector associated with the synthetic waveforms
-  The sampling frequency associated with the synthetic waveforms
+  The time vector and sampling frequency associated with the synthetic waveforms
+  
 
 ## Plotting Example
 
