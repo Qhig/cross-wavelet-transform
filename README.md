@@ -42,7 +42,7 @@ WXamp, WXspec, WXangle, Wcoh, WXdt, freqs = xwt(trace_ref,trace_current,fs,ns,nt
   ns : NumScalesToSmooth // Positive integer, indicating the length of boxcar window.<br/>
   nt : DegTimeToSmooth // Positive scalar, indicating the length of the Gaussian window.<br/>
   vpo : VoicesPerOctave //  Even integer from 4 to 48, indicates how fine the frequency is discretized.
-                             Should be no less than 10.
+                             Should be no less than 10.<br/>
   freqmin : The starting value of the frequency vector, in Hz.<br/>
   freqmax : The ending value of the frequency vector, in Hz.<br/>
   nptsfreq : Number of frequency samples to generate between the starting and ending value.
