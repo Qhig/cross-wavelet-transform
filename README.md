@@ -33,10 +33,10 @@ You can use pip to install this package :
   The time vector and sampling frequency associated with the synthetic waveforms
   
 ## Usage
-'''
+```
 WXamp, WXspec, WXangle, Wcoh, WXdt, freqs = xwt(trace_ref,trace_current,fs,ns,nt,vpo,freqmin,freqmax,nptsfreq)
-'''
-* **Input 
+```
+* **Input** 
   trace_ref,trace_current : Two vectors, reference and current time series.
   fs : Sampling Frequency // Positive scalar, sampling frequency.
   ns : NumScalesToSmooth // Positive integer, indicating the length of boxcar window.
@@ -47,7 +47,7 @@ WXamp, WXspec, WXangle, Wcoh, WXdt, freqs = xwt(trace_ref,trace_current,fs,ns,nt
   freqmax : The ending value of the frequency vector, in Hz.
   nptsfreq : Number of frequency samples to generate between the starting and ending value.
 
-* **Output
+* **Output**
   WXamp : Matrix of amplitude product of two CWT in time-frequency domain
   WXspec : Complex-valued matrix, the wavelet cross-spectrum
   WXangle : Matrix of the angle of the complex argument in WXspec
