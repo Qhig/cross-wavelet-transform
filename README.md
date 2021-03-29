@@ -67,7 +67,7 @@ This is the plot we obtain using the **plotting_example.py** program :
 
 (If interested, compare the image obtain here with the **Figure 3** in this article Geophysical Journal International, Volume 221, Issue 1, April 2020, Pages 550–568, https://doi.org/10.1093/gji/ggz495)
 
-## Reference: 
+## Reference 
 S.Mao, A.Mordret, M.Campillo, H.Fang, R.D.van der Hilst, (2019), On the Measurement of Seismic Travel-Time Changes in the Time-Frequency Domain with Wavelet Cross-Spectrum Analysis, GJI, In Review.<br/><br/>
 Torrence, C. and Compo, G. P.. A Practical Guide to Wavelet Analysis.
 
