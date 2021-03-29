@@ -18,7 +18,7 @@
 #    ns : NumScalesToSmooth // Positive integer, indicating the length of boxcar window.
 #    nt : DegTimeToSmooth // Positive scalar, indicating the length of the Gaussian window.
 #    vpo : VoicesPerOctave //  Even integer from 4 to 48, indicates how fine the frequency is discretized.
-#                              Recommanded to be no less than 10.
+#                              Should to be no less than 10.
 #    freqmin : The starting value of the frequency vector, in Hz.
 #    freqmax : The ending value of the frequency vector, in Hz.
 #    nptsfreq : Number of frequency samples to generate between the starting and ending value.
