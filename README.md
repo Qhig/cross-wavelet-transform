@@ -36,7 +36,7 @@ You can use pip to install this package :
 ```
 WXamp, WXspec, WXangle, Wcoh, WXdt, freqs = xwt(trace_ref,trace_current,fs,ns,nt,vpo,freqmin,freqmax,nptsfreq)
 ```
-* **Input**<br/>
+* **Input**<br/><br/>
   trace_ref,trace_current : Two vectors, reference and current time series.<br/>
   fs : Sampling Frequency // Positive scalar, sampling frequency.<br/>
   ns : NumScalesToSmooth // Positive integer, indicating the length of boxcar window.<br/>
@@ -47,7 +47,7 @@ WXamp, WXspec, WXangle, Wcoh, WXdt, freqs = xwt(trace_ref,trace_current,fs,ns,nt
   freqmax : The ending value of the frequency vector, in Hz.<br/>
   nptsfreq : Number of frequency samples to generate between the starting and ending value.
 
-* **Output**<br/>
+* **Output**<br/><br/>
   WXamp : Matrix of amplitude product of two CWT in time-frequency domain.<br/>
   WXspec : Complex-valued matrix, the wavelet cross-spectrum.<br/>
   WXangle : Matrix of the angle of the complex argument in WXspec.<br/>
