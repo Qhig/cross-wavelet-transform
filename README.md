@@ -36,24 +36,24 @@ You can use pip to install this package :
 ```
 WXamp, WXspec, WXangle, Wcoh, WXdt, freqs = xwt(trace_ref,trace_current,fs,ns,nt,vpo,freqmin,freqmax,nptsfreq)
 ```
-* **Input** 
-  trace_ref,trace_current : Two vectors, reference and current time series.
-  fs : Sampling Frequency // Positive scalar, sampling frequency.
-  ns : NumScalesToSmooth // Positive integer, indicating the length of boxcar window.
-  nt : DegTimeToSmooth // Positive scalar, indicating the length of the Gaussian window.
+* **Input**<br/>
+  trace_ref,trace_current : Two vectors, reference and current time series.<br/>
+  fs : Sampling Frequency // Positive scalar, sampling frequency.<br/>
+  ns : NumScalesToSmooth // Positive integer, indicating the length of boxcar window.<br/>
+  nt : DegTimeToSmooth // Positive scalar, indicating the length of the Gaussian window.<br/>
   vpo : VoicesPerOctave //  Even integer from 4 to 48, indicates how fine the frequency is discretized.
                              Should be no less than 10.
-  freqmin : The starting value of the frequency vector, in Hz.
-  freqmax : The ending value of the frequency vector, in Hz.
+  freqmin : The starting value of the frequency vector, in Hz.<br/>
+  freqmax : The ending value of the frequency vector, in Hz.<br/>
   nptsfreq : Number of frequency samples to generate between the starting and ending value.
 
-* **Output**
-  WXamp : Matrix of amplitude product of two CWT in time-frequency domain
-  WXspec : Complex-valued matrix, the wavelet cross-spectrum
-  WXangle : Matrix of the angle of the complex argument in WXspec
-  Wcoh: Matrix of wavelet coherence
+* **Output**<br/>
+  WXamp : Matrix of amplitude product of two CWT in time-frequency domain.<br/>
+  WXspec : Complex-valued matrix, the wavelet cross-spectrum.<br/>
+  WXangle : Matrix of the angle of the complex argument in WXspec.<br/>
+  Wcoh: Matrix of wavelet coherence.<br/>
   WXdt : Matrix of time difference and phase difference, respectively
-         between the two input time series in time-frequency domain.
+         between the two input time series in time-frequency domain.<br/>
   freqs : Vector of frequencies used in CWT, in Hz
   
 ## Plotting Example
