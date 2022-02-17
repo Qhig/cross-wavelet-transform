@@ -145,7 +145,7 @@ def xwt(trace_ref, trace_current, fs, ns, nt, vpo, freqmin, freqmax, nptsfreq):
     # scales are calculated using the wavelet Fourier wavelength
     # fft : Normalized fast Fourier transform of the input trace
     # fftfreqs : Fourier frequencies for the calculated FFT spectrum.
-    cwt_reference, scales, freqs, _, fft, fftfreqs = wavelet.cwt(x_reference, dt, dj, s0, J, mother, freqs=freqlim)
+    cwt_reference, scales, freqs, coi, fft, fftfreqs = wavelet.cwt(x_reference, dt, dj, s0, J, mother, freqs=freqlim)
     cwt_current, _, _, _, _, _ = wavelet.cwt(x_current, dt, dj, s0, J, mother, freqs=freqlim)
 
     scales = np.array([[kk] for kk in scales])
@@ -164,6 +164,6 @@ def xwt(trace_ref, trace_current, fs, ns, nt, vpo, freqmin, freqmax, nptsfreq):
     WXdt = WXangle / np.kron(np.ones((1, nx)), pp2)
 
 
-    return WXamp, WXspec, WXangle, Wcoh, WXdt, freqs
+    return WXamp, WXspec, WXangle, Wcoh, WXdt, freqs, coi
 
 
