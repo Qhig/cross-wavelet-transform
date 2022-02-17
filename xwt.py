@@ -8,7 +8,7 @@
 
 ## USAGE
 
-#  WXamp, WXspec, WXangle, Wcoh, WXdt, freqs = xwt(trace_ref,trace_current,fs,ns,nt,vpo,freqmin,freqmax,nptsfreq)
+#  WXamp, WXspec, WXangle, Wcoh, WXdt, freqs, coi = xwt(trace_ref,trace_current,fs,ns,nt,vpo,freqmin,freqmax,nptsfreq)
 
 
 ## Input
