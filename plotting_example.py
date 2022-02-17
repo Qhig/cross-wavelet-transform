@@ -10,7 +10,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Import the cross-wavelet transform function from the cwt.py file
+# Import the cross-wavelet transform function from the xwt.py file
 from xwt import xwt
 
 ## Loading datas
