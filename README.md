@@ -54,9 +54,9 @@ WXamp, WXspec, WXangle, Wcoh, WXdt, freqs, coi = xwt(trace_ref,trace_current,fs,
   Wcoh: Matrix of wavelet coherence.<br/>
   WXdt : Matrix of time difference and phase difference, respectively
          between the two input time series in time-frequency domain.<br/>
-  freqs : Vector of frequencies used in CWT, in Hz
-  coi : Cone of influce. Vector of the maximum period of useful information at each arrival time. 
-  Note that here coi means MAX PERIODS, in Matlab codes it refers to MIN FREQUENCY
+  freqs : Vector of frequencies used in CWT, in Hz.<br/>
+  coi : Cone of influce. Vector of the maximum period of useful information at each arrival time.<br/>
+  Note that here coi means MAX PERIODS, in Matlab codes it refers to MIN FREQUENCY.
   
 ## Plotting Example
 
