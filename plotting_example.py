@@ -21,7 +21,7 @@ new_waveform = np.load('new_waveform.npy')
 fs = np.load('fs.npy')
 
 
-## Usage of the cfs function
+## Usage of the xwt function
 WXamp, WXspec, WXangle, Wcoh, WXdt, freqs = xwt(ori_waveform, new_waveform, fs, 3, 0.25, 10, 0.5, 7, 100)
 
 
