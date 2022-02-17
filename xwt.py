@@ -35,12 +35,13 @@
 #                  If needed, the user can also produce time difference with
 #                  unwrapped phase from WXangle. !!!!
 #    freqs : Vector of frequencies used in CWT, in Hz
-
+#    coi : Cone of influce. Vector of the maximum period of useful information at each arrival time.
+#    Note that here coi means MAX PERIODS, in Matlab codes it refers to MIN FREQUENCY.
 
 
 ## EXAMPLE:
 
-#    WXamp, WXspec, WXangle, Wcoh, WXdt, freqs = xwt(trace_ref,trace_current,fs,ns,nt,vpo,freqmin,freqmax,nptsfreq)
+#    WXamp, WXspec, WXangle, Wcoh, WXdt, freqs, coi = xwt(trace_ref,trace_current,fs,ns,nt,vpo,freqmin,freqmax,nptsfreq)
 
 
 ##    Authors: Higueret Quentin (quentin.higueret@univ-grenoble-alpes.fr) & Aurélien Mordret (aurelien.mordret@univ-grenoble-alpes.fr)
