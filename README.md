@@ -34,7 +34,7 @@ You can use pip to install this package :
   
 ## Usage
 ```
-WXamp, WXspec, WXangle, Wcoh, WXdt, freqs = xwt(trace_ref,trace_current,fs,ns,nt,vpo,freqmin,freqmax,nptsfreq)
+WXamp, WXspec, WXangle, Wcoh, WXdt, freqs, coi = xwt(trace_ref,trace_current,fs,ns,nt,vpo,freqmin,freqmax,nptsfreq)
 ```
 * **Input**<br/><br/>
   trace_ref,trace_current : Two vectors, reference and current time series.<br/>
@@ -55,10 +55,12 @@ WXamp, WXspec, WXangle, Wcoh, WXdt, freqs = xwt(trace_ref,trace_current,fs,ns,nt
   WXdt : Matrix of time difference and phase difference, respectively
          between the two input time series in time-frequency domain.<br/>
   freqs : Vector of frequencies used in CWT, in Hz
+  coi : Cone of influce. Vector of the maximum period of useful information at each arrival time. 
+  Note that here coi means MAX PERIODS, in Matlab codes it refers to MIN FREQUENCY
   
 ## Plotting Example
 
-Using the cwt function and the synthetic data, we can perform a cross-wavelet transform. <br/>
+Using the xwt function and the synthetic data, we can perform a cross-wavelet transform. <br/>
 This is the plot we obtain using the **plotting_example.py** program :
 
 <p align="center">
