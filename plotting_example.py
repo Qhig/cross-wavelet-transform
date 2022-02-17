@@ -22,7 +22,7 @@ fs = np.load('fs.npy')
 
 
 ## Usage of the xwt function
-WXamp, WXspec, WXangle, Wcoh, WXdt, freqs = xwt(ori_waveform, new_waveform, fs, 3, 0.25, 10, 0.5, 7, 100)
+WXamp, WXspec, WXangle, Wcoh, WXdt, freqs, coi = xwt(ori_waveform, new_waveform, fs, 3, 0.25, 10, 0.5, 7, 100)
 
 
 ## Plotting
@@ -34,6 +34,7 @@ plt.tight_layout()
 plt.pcolormesh(time, freqs, WXdt, cmap='jet_r', edgecolors='none')
 plt.clim([-0.02, 0.01])
 plt.colorbar()
+plt.plot(time, 1/coi, 'w--', linewidth=2)
 plt.ylim(freqs[-1], freqs[0])
 plt.xlim(4, 25)
 plt.title('Smoothed Time difference', fontsize=13)
@@ -45,6 +46,7 @@ plt.tight_layout()
 plt.pcolormesh(time, freqs, Wcoh, cmap='jet', edgecolors='none')
 plt.clim([0.985, 1])
 plt.colorbar()
+plt.plot(time, 1/coi, 'w--', linewidth=2)
 plt.ylim(freqs[-1], freqs[0])
 plt.xlim(4, 25)
 plt.title('Wavelet Coherence', fontsize=13)
@@ -56,6 +58,7 @@ plt.tight_layout()
 plt.pcolormesh(time, freqs, np.log(WXamp), cmap='jet', edgecolors='none')
 plt.clim([-50, 0])
 plt.colorbar()
+plt.plot(time, 1/coi, 'w--', linewidth=2)
 plt.ylim(freqs[-1], freqs[0])
 plt.xlim(4, 25)
 plt.title('(Logarithmic) Amplitude', fontsize=13)
