@@ -1,4 +1,4 @@
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6780509.svg)](https://doi.org/10.5281/zenodo.6780509)
 ## CODE for MEASURING SEISMIC TRAVEL-TIME CHANGES with the WAVELET METHOD
 ### This python program is based on the work of Mao and Mordret, that you can find here : https://github.com/shujuanmao/dt-wavelet
 ### The original code was in MATLAB, and here is the Python equivalent
